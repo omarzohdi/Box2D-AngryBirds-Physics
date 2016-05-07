@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAJEAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoxSprite">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAABQCAAAAAAAAIAEAACgAAEIACQACAAwABAAAA=</HashCode>
+      <FileName>BoxSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSprite">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQBAABQAAAAAAAAgIAEAACAAAEAAAAACAAwABAAAA=</HashCode>
+      <FileName>GameSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAIAAIAEAAAAAEEAAAQAAAAAAAEIAA=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectBird">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>GameObjectBird.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCircleSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameObjectBlock">
+    <Position X="2.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>GameObjectBlock.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pBoxSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CircleSprite">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAABQAAAAAAAAAIAEAACAAAEIACAACAIwBBAAAA=</HashCode>
+      <FileName>CircleSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PolySprite">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PolySprite::LineType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PolySprite.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAQAAAAAAAAAIAEAACAAAFIACAAAAAwABABAA=</HashCode>
+      <FileName>PolySprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulMain.cpp" />
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulCore.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ManLink.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulCorePrivate.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteModel.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerLink.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SBNode.cpp">
+      <Filter>SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatchManager.cpp">
+      <Filter>SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteNode.cpp">
+      <Filter>SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMan.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMan.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxModel.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleModel.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="PolySprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyModel.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect2D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectBird.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectBlock.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenLineModel.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenLine.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="AngryContactListener.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Trail.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectSlingShot.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectSmokeCloud.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectEgg.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectGround.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectPig.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectPlatform.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleList.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectParticle.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectBlockRound.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectBlockTriangle.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_Libs\_PCSTree</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeRelease.lib">
+      <Filter>_Libs\_PCSTree</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltoolsDebug.lib">
+      <Filter>_Libs\_GLTools</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltoolsRelease.lib">
+      <Filter>_Libs\_GLTools</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLFW\lib\GLFW3Debug.lib">
+      <Filter>_Libs\_GLFW</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLFW\lib\GLFW3Release.lib">
+      <Filter>_Libs\_GLFW</Filter>
+    </Library>
+    <Library Include="..\Debug\Box2DDebug.lib">
+      <Filter>_Libs\_Box2D</Filter>
+    </Library>
+    <Library Include="..\Audio\lib\irrKlang.lib">
+      <Filter>_Libs\_Audio</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2cb38ae4-8112-483f-89dc-3ee30f8bbf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{033fc5a8-ac47-4111-9a54-90af2ae7a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{34d4503f-a18a-4de1-b709-19b8f22d12fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time">
+      <UniqueIdentifier>{146d0fa5-a3e7-499d-95b4-0a04abcdfd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time\include">
+      <UniqueIdentifier>{9939be1f-cf93-459f-8f82-a8ca47dbf9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_PCSTree">
+      <UniqueIdentifier>{c3530f79-bf90-4961-9421-a7ee64101f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_PCSTree\include">
+      <UniqueIdentifier>{afc1cd65-b5f9-470c-8d43-93aa0e4bce14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math">
+      <UniqueIdentifier>{381e9c85-01d7-42a8-bdbe-f74927e8a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math\include">
+      <UniqueIdentifier>{b5dc21b1-7a1a-40f1-808f-ceff58ce11a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_GLTools">
+      <UniqueIdentifier>{f07ce561-f2c7-4a92-839e-8e2f628cea7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_GLFW">
+      <UniqueIdentifier>{53ff9123-c18b-4577-87bf-33e6c5cfa974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File">
+      <UniqueIdentifier>{d7c315c2-3584-4986-bad2-52ecd69a9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File\include">
+      <UniqueIdentifier>{c3d53df5-bbfa-4724-8d45-23ac33ad35c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{9abe9b31-0ba2-43e8-b395-1ed0c05c8a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{0c7abbeb-34b3-44b9-a1a9-e0a528eadc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{9dc7f82c-a7f0-4b8e-9d29-ad08ef7fe286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteBatch">
+      <UniqueIdentifier>{d146a955-00a2-408b-8191-10b272d5edb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{0e3b1d12-4e0c-469f-b251-05585402e310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{d23629e4-c723-4f57-90d2-e84319a3d3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Box2D">
+      <UniqueIdentifier>{e876b53f-ba7b-4061-bfc6-4cd0dea65c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Box2D\include">
+      <UniqueIdentifier>{64f6de0d-acc0-498d-80a5-cc063094897b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{9ca4ca9e-337d-43f1-9d0e-f9d7bd6316ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{0e5eba58-df10-4dc2-baa1-67ed82dcc96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Audio">
+      <UniqueIdentifier>{60b525e9-0d4e-4469-96f9-4f8f52f86d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Audio\include">
+      <UniqueIdentifier>{fb540bb8-147b-42d6-adc1-5e9f88a236a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{6630e64e-7cda-4810-801e-35058bca1457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_Libs\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSNode.h">
+      <Filter>_Libs\_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSTree.h">
+      <Filter>_Libs\_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLTools\include\GLTools.h">
+      <Filter>_Libs\_GLTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLFW\include\glfw3.h">
+      <Filter>_Libs\_GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulCore.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulHeader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ManLink.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumName.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteModel.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerLink.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SBNode.h">
+      <Filter>SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatchManager.h">
+      <Filter>SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteNode.h">
+      <Filter>SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMan.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMan.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxModel.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleModel.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="PolySprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyModel.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Box2D.h">
+      <Filter>_Libs\_Box2D\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelToMeter.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AngryContactListener.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectBird.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectBlock.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenLineModel.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenLine.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Audio\include\irrKlang.h">
+      <Filter>_Libs\_Audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Trail.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectPlatform.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectSlingShot.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectSmokeCloud.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectEgg.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectGround.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectPig.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleList.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectParticle.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectBlockRound.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectBlockTriangle.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Audio\lib\ikpMP3.dll">
+      <Filter>_Libs\_Audio</Filter>
+    </None>
+    <None Include="..\Audio\lib\irrKlang.dll">
+      <Filter>_Libs\_Audio</Filter>
+    </None>
+  </ItemGroup>
+</Project>
